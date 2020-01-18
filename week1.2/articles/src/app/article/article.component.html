@@ -1,0 +1,10 @@
+<div #titleDiv id="title">
+  {{article.title}}
+</div>
+<button *ngIf="!hasNoMoreInfo" (click)="readMore()">Read More</button>
+<button *ngIf="hasNoMoreInfo" (click)="hideDescription()">Hide Desc</button>
+<button (click)="toggleImage()">{{ this.showImage ? 'Hide Image' : 'Show Image'}}</button>
+<div class="desc" *ngIf="article.description.length > 0">{{description}}</div>
+<img *ngIf="showImage" [src]="article.imageUrl" alt="article image" />
+
+<div [style.color]="'red'">{{titleDiv.innerHTML}}</div>
