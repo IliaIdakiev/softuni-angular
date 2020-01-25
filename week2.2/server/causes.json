@@ -1,0 +1,84 @@
+{
+  "causes": [
+    {
+      "_id": 1,
+      "cause": "Travelling to Abu Dhabi",
+      "description": "Aliquip in reprehenderit eu exercitation sint sunt dolor ut culpa incididunt dolor nulla. Quis mollit et sit esse est quis nisi velit. Esse minim ad pariatur fugiat. Sint officia magna elit consequat consequat proident irure cupidatat commodo elit culpa mollit veniam amet. Magna culpa aliqua sint voluptate eu duis sint mollit est sit ut fugiat deserunt. Tempor aliqua eiusmod fugiat qui do eu amet dolore sunt. Nostrud est nisi amet enim deserunt et.",
+      "neededAmount": 4.4435,
+      "collectedAmount": 6.1543,
+      "imageUrl": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/03/26/08/trip-advisor-1.jpg"
+    },
+    {
+      "_id": 2,
+      "cause": "Travelling to Niagara Falls",
+      "description": "Enim laboris Lorem esse exercitation commodo. Consectetur officia cillum officia minim est mollit dolor do aliquip consectetur incididunt ad veniam consectetur. Excepteur cupidatat pariatur occaecat amet exercitation eu dolore ut. Proident quis ullamco irure culpa cillum nostrud eu et cillum eu. Duis non velit magna mollit ea incididunt. Tempor sint dolore ad cillum incididunt. Nulla consequat voluptate commodo aute ut.",
+      "neededAmount": 8.0142,
+      "collectedAmount": 2.2178,
+      "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e3/a0/6a.jpg"
+    },
+    {
+      "_id": 3,
+      "cause": "Trip to Bora Bora",
+      "description": "In dolore enim culpa duis minim qui deserunt aliquip voluptate et ipsum ut eu labore. Nisi deserunt cupidatat reprehenderit irure officia occaecat sint. Quis adipisicing ut ut ipsum exercitation tempor ut aute. Magna occaecat exercitation ea excepteur consequat cillum. Eu aliquip fugiat eiusmod et id veniam aute voluptate voluptate anim aute in sit. Qui do ut ipsum eu occaecat sint sint id ullamco occaecat adipisicing laborum laborum. Ex aliquip reprehenderit cillum officia est nostrud dolor.",
+      "neededAmount": 0.5553,
+      "collectedAmount": 9.2602,
+      "imageUrl": "https://pix10.agoda.net/hotelImages/336/336870/336870_16042115000041680438.jpg?s=1024x768"
+    },
+    {
+      "_id": 4,
+      "cause": "Swimming with sharks",
+      "description": "Qui est officia consequat dolor qui. Eu dolor magna quis eiusmod commodo reprehenderit cupidatat occaecat nulla. Enim veniam velit incididunt et est duis sit exercitation ad. Mollit occaecat tempor duis nostrud ut irure irure. Laboris exercitation pariatur exercitation laborum voluptate. Mollit Lorem aute reprehenderit fugiat non magna cupidatat proident ut cillum voluptate aliqua ipsum ad. In incididunt id occaecat sunt eiusmod veniam occaecat proident.",
+      "neededAmount": 0.3561,
+      "collectedAmount": 5.9792,
+      "imageUrl": "https://cdn.civitatis.com/polinesia-francesa/bora-bora/galeria/snorkel-tiburones.jpg"
+    },
+    {
+      "_id": 5,
+      "cause": "Trip to Palma de Mallorca",
+      "description": "Occaecat aliquip dolore et mollit adipisicing. Culpa ipsum elit anim adipisicing. Mollit commodo in quis aute aute dolore ex ex amet ad eu ut Lorem. Sunt labore officia non laborum magna ipsum deserunt. Ut magna Lorem cupidatat esse pariatur. Fugiat est tempor exercitation eiusmod non. Minim labore ea occaecat reprehenderit ipsum.",
+      "neededAmount": 7.272,
+      "collectedAmount": 1.8077,
+      "imageUrl": "http://verbanoviaggi.com/wp-content/uploads/2016/01/palma-de-mallorca-cathedral.jpg"
+    },
+    {
+      "_id": 6,
+      "cause": "Trip to Italy",
+      "description": "Quis in exercitation magna proident. Culpa labore laboris consectetur aliquip nulla culpa adipisicing aliquip ipsum ipsum. Ipsum duis ea id cillum proident aliqua duis commodo fugiat est exercitation. Eiusmod labore anim enim elit laborum. Dolor in id incididunt officia est adipisicing est velit sit cillum sit tempor excepteur eu. Minim laboris enim proident aliqua sint sit magna. Mollit voluptate ut aliquip id ex.",
+      "neededAmount": 7.1325,
+      "collectedAmount": 6.4744,
+      "imageUrl": "https://cstad.s3-ap-southeast-2.amazonaws.com/3146_Taste_Of_Italy_web_hero.jpg"
+    },
+    {
+      "_id": 7,
+      "cause": "Study in Spain",
+      "description": "Aute consectetur nisi ex adipisicing velit enim quis amet. Dolor laborum enim duis velit proident do ipsum officia. Proident eu dolore aute labore labore id aute. Nulla tempor ipsum tempor consectetur eiusmod deserunt. Irure fugiat esse culpa consequat non ad pariatur. Do nostrud ullamco quis nostrud excepteur proident qui eu magna nulla mollit. Irure occaecat aliqua amet commodo ex consequat.",
+      "neededAmount": 1.2921,
+      "collectedAmount": 2.2185,
+      "imageUrl": "http://studentexpat.com/wp-content/uploads/2019/12/spain.jpg"
+    },
+    {
+      "_id": 8,
+      "cause": "Trip with my fiancée  to Venezia",
+      "description": "Adipisicing officia consequat laboris excepteur est aute id laborum duis eiusmod reprehenderit nostrud. Est ea commodo ex pariatur veniam deserunt ex qui enim voluptate. Qui voluptate duis et irure officia ex tempor tempor officia in nostrud velit magna aliquip. Ut laborum labore eiusmod ut minim. Voluptate adipisicing aliqua sit do ipsum consectetur ipsum. Do excepteur cupidatat reprehenderit consectetur nulla adipisicing non esse. Dolore occaecat minim incididunt ipsum pariatur pariatur mollit dolor amet labore irure amet proident.",
+      "neededAmount": 4.1237,
+      "collectedAmount": 1.6232,
+      "imageUrl": "http://www.golftolive.it/imgs/venezia2.jpg"
+    },
+    {
+      "_id": 9,
+      "cause": "World of Warcraft - Shadowlands set",
+      "description": "Est aute est esse consectetur. Ad quis exercitation aliquip proident sit amet duis sunt sint sunt. Laboris do nisi ea minim anim commodo ex et. Sit non quis reprehenderit non irure anim labore. Sunt pariatur aute proident proident. Eu quis veniam aliqua enim nisi quis veniam incididunt ad irure nisi dolore. Velit sunt incididunt sunt quis labore proident officia id ad dolor ipsum qui consectetur ut.",
+      "neededAmount": 1.6392,
+      "collectedAmount": 5.561,
+      "imageUrl": "https://bnetproduct-a.akamaihd.net//12/e315e605ed2a696f5dc654db27519402-WoW_9.0_ProductPage_Collection_Thumbnail_Epic_MN04.jpg"
+    },
+    {
+      "_id": 10,
+      "cause": "Tesla Cybertruck",
+      "description": "Aliqua tempor non consectetur aliqua magna Lorem irure sint tempor deserunt. In excepteur Lorem exercitation Lorem dolor est do culpa aliqua fugiat. Aute consequat aliqua esse ullamco minim fugiat elit amet Lorem. Amet aliquip exercitation veniam ad tempor. Occaecat nostrud sit et consectetur minim laboris magna do occaecat irure ipsum voluptate enim nisi. Velit adipisicing mollit ad quis anim ullamco laboris do. Est in dolor proident aute eu.",
+      "neededAmount": 3.2563,
+      "collectedAmount": 7.0915,
+      "imageUrl": "https://static.economic.bg/news/12/111896/item_7.jpg"
+    }
+  ]
+}
