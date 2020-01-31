@@ -1,0 +1,27 @@
+.like-div {
+  display: flex;
+  text-align: center;
+}
+
+.like-div a.redirects {
+  border: 1px solid gray;
+  border-radius: 15px;
+  width: 100%;
+  padding: 20%;
+  font-size: 8em;
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+}
+
+.like-div a.redirects:hover {
+  color: #234465;
+  text-decoration: underline;
+  background-color: #f5f5f0;
+}
+
+.like-div h3 {
+  display: block;
+  text-align: center;
+  border: 1px solid black;
+}
