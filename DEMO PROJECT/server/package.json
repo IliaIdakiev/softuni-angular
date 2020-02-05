@@ -1,0 +1,14 @@
+{
+    "name": "name",
+    "description": "description",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "pathToMain",
+    "scripts": {
+        "start": "json-server --static ./ --watch causes.json"
+    },
+    "dependencies": {
+        "bootstrap": "^3.4.1",
+        "json-server": "^0.15.1"
+    }
+}
