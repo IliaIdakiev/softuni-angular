@@ -1,0 +1,21 @@
+<div class="col-md-4"></div>
+<div class="col-md-4">
+  <h1 class="text-italic">Login</h1>
+  <form #loginForm="ngForm" (ngSubmit)="handleLogin(loginForm.value)">
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input #emailInput="ngModel" type="text" ngModel name="email" id="email" class="form-control"
+        placeholder="john.doe@domain.bg" [pattern]="emailRegex" required>
+      <p class="error-message" *ngIf="emailInput.invalid && emailInput.touched">Please enter valid gmail.com email!</p>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input #passwordInput="ngModel" required minlength="6" type="password" ngModel name="password" id="password"
+        class="form-control" placeholder="************">
+      <p class="error-message" *ngIf="passwordInput.touched && passwordInput.invalid">Please enter a password!</p>
+    </div>
+
+    <button [disabled]="loginForm.invalid" class="btn btn-success">Login</button>
+  </form>
+  <p>Don't have account yet? <a routerLink="/user/register">Register</a>.</p>
+</div>

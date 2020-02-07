@@ -7,7 +7,7 @@ import { tap } from 'rxjs/operators';
 })
 export class UserService {
 
-  currentUser: { username: string; password: string } = null;
+  currentUser: { email: string; password: string } = null;
 
   get isLogged() {
     return !!this.currentUser;
@@ -18,16 +18,16 @@ export class UserService {
     this.currentUser = currentUser ? JSON.parse(currentUser) : null;
   }
 
-  login(username: string, password: string) {
-    localStorage.setItem('current-user', JSON.stringify({ username, password }));
-    this.currentUser = { username, password };
+  login(email: string, password: string) {
+    localStorage.setItem('current-user', JSON.stringify({ email, password }));
+    this.currentUser = { email, password };
 
-    return of({ username }).pipe(
-      tap((val) => {
-        if (!val) { return; }
-        this.toastrService.show('Successfuly logged in!');
-      })
-    ) // this.http.post('https://my-domain.com/api/loing', { username, password })
+    // return of({ username }).pipe(
+    //   tap((val) => {
+    //     if (!val) { return; }
+    //     this.toastrService.show('Successfuly logged in!');
+    //   })
+    // ) // this.http.post('https://my-domain.com/api/loing', { username, password })
   }
 
   logout() {
