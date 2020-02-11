@@ -1,0 +1,7 @@
+<div *ngIf="(posts$ | async) as posts">
+  <div>Posts count {{ posts | listCount }}</div>
+  <div *ngFor="let post of posts">
+    {{post.title}}
+  </div>
+</div>
+<div *ngIf="!posts">Loading...</div>
