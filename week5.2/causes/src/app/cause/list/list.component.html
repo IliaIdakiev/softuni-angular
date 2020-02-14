@@ -1,0 +1,14 @@
+<h1>Causes</h1>
+<div class="row">
+
+  <div class="col-xs-12" *ngIf="causes">
+    <a *ngFor="let cause of causes" (click)="selectCauseHandler(cause)" class="list-group-item clearfix">
+      <div class="pull-left">
+        <h4 class="list-group-item-heading">{{cause.cause}}</h4>
+      </div>
+      <div class="pull-right">
+        <img [src]="cause.imageUrl" alt="" class="img-responsive">
+      </div>
+    </a>
+  </div>
+</div>

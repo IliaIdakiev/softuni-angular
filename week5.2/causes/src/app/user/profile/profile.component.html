@@ -1,0 +1,75 @@
+<div class="col-md-6 profile-info">
+  <div class="panel panel-default">
+    <div class="text-underline panel-body panel-primary">
+      Logged as: <span class="text-bold">{{currentUser.email}}</span>
+      <a class="float-right custom-button btn btn-danger" (click)="logout()">Logout</a>
+    </div>
+    <div class="panel-footer">
+
+      <form [formGroup]="form">
+        <div class="form-group">
+          <label for="email">New address</label>
+          <input formControlName="email" type="text" id="newEmail" class="form-control"
+            placeholder="john.doe@domain.bg">
+          <p class="error-message" *ngIf="form.get('email').invalid && form.get('email').touched">Please enter valid
+            gmail.com email!
+          </p>
+        </div>
+        <div formGroupName="passwords">
+          <div class="form-group">
+            <label for="password">New Password</label>
+            <input
+              [ngClass]="{ 'password-match-invalid': form.get('passwords').invalid, 'password-match-touched': form.get('passwords').touched }"
+              formControlName="password" type="password" id="password" class="form-control" placeholder="************">
+          </div>
+          <div class="form-group">
+            <label for="rePassword">Re-Password</label>
+            <input
+              [ngClass]="{ 'password-match-invalid': form.get('passwords').invalid, 'password-match-touched': form.get('passwords').touched }"
+              formControlName="rePassword" type="password" id="rePassword" class="form-control"
+              placeholder="************">
+          </div>
+          <p class="error-message" *ngIf="form.get('passwords').touched && form.get('passwords').invalid">Passwords
+            don't
+            match!</p>
+        </div>
+        <button [disabled]="form.invalid" type="submit" class="btn btn-primary">Change profile information</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+<div class="col-md-6">
+  <div class="panel panel-default">
+    <div class="panel-body panel-primary">
+      Related causes
+    </div>
+    <div class="panel-footer">
+      <div class="panel panel-default">
+        <div class="panel-body panel-primary">
+          My own causes: [{{myCauses.length}}]
+        </div>
+
+        <div class="panel-footer">
+          <ul class="list-group">
+            <li *ngFor="let cause of myCauses" class="list-group-item"><a
+                [routerLink]="['/cause', 'detail', cause._id]">{{cause.cause}}</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-body panel-primary">
+          Causes I have contributed to: [{{contributedCauses.length}}]
+        </div>
+
+        <div class="panel-footer">
+          <ul class="list-group">
+            <li class="list-group-item" *ngFor="let cause of contributedCauses"><a
+                [routerLink]="['/cause', 'detail', cause._id]">{{cause.cause}}</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

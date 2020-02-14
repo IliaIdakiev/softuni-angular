@@ -1,0 +1,36 @@
+<div class="col-md-4"></div>
+<div class="col-md-4">
+  <h1 class="text-italic">Creating my own cause</h1>
+  <form [formGroup]="form" (ngSubmit)="createCauseHandler()">
+    <div class="form-group">
+      <label for="cause">Cause</label>
+      <input type="text" formControlName="cause" id="cause" class="form-control" placeholder="My cause is ..."
+        minlength="10">
+      <p class="error-message" *ngIf="form.get('cause').invalid && form.get('cause').touched">Enter cause name</p>
+    </div>
+    <div class="form-group">
+      <label for="neededAmount">Needed amount</label>
+      <input type="number" formControlName="neededAmount" id="neededAmount" class="form-control"
+        placeholder="I need ...">
+      <p class="error-message" *ngIf="form.get('neededAmount').invalid && form.get('neededAmount').touched">Amount
+        should be > 10</p>
+    </div>
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea formControlName="description" id="description" cols="30" rows="10"
+        class="form-control cause-description"
+        placeholder="A little bit information about this cause. What is meaning to you?"></textarea>
+    </div>
+    <p class="error-message" *ngIf="form.get('description').invalid && form.get('description').touched">Please enter
+      description > 50</p>
+    <div class="form-group">
+      <label for="imageUrl">Image URL</label>
+      <input type="text" id="imageUrl" formControlName="imageUrl" class="form-control" placeholder="https://..."
+        pattern="https?:\/\/.*">
+    </div>
+    <p class="error-message" *ngIf="form.get('imageUrl').invalid && form.get('imageUrl').touched">Please provice valid
+      url</p>
+    <button [disabled]="form.invalid" class="btn btn-primary">Create</button>
+  </form>
+</div>
+<div class="col-md-4"></div>
